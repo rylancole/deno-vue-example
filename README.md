@@ -9,7 +9,7 @@ cd deno-vue-example
 
 ### Requirements
 
-[Install Deno](https://deno.land/).
+[Install Deno](https://deno.land/)
 
 ```
 brew install deno
@@ -23,7 +23,7 @@ deno install --allow-net --allow-read https://deno.land/std@0.74.0/http/file_ser
 
 ### Back-End
 
-I have an example back-end set up HERE.
+I have an example back-end set up here: [deno-oak-rest-api](https://github.com/rylancole/deno-oak-rest-api)
 
 ## Run
 
@@ -32,7 +32,7 @@ Compile
 deno fmt & deno bundle ./src/main.ts ./src/index.js 
 ```
 
-Serve
+Serve  
 _make sure the back-end is running first_
 ```
 file_server src --host "127.0.0.1" --port 3000 
