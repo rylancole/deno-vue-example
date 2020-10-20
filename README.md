@@ -9,13 +9,16 @@ cd deno-vue-example
 
 ### Requirements
 
-[Install Deno](https://deno.land/)
+[Install Deno](https://deno.land/). This can be done with any of the following commands (depending on OS):
 
-```
-brew install deno
-```
+`curl -fsSL https://deno.land/x/install/install.sh | sh`  
+`iwr https://deno.land/x/install/install.ps1 -useb | iex`  
+`brew install deno`  
+`choco install deno`  
+`scoop install deno`  
+`cargo install deno`
 
-[Install Deno File_Server](https://deno.land/manual@v1.4.6/examples/file_server)
+[Install Deno File_Server](https://deno.land/manual@v1.4.6/examples/file_server) using Deno.
 
 ```
 deno install --allow-net --allow-read https://deno.land/std@0.74.0/http/file_server.ts
