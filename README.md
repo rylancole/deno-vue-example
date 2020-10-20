@@ -3,7 +3,7 @@
 ## Set-Up
 
 ```
-git clone ...
+git clone https://github.com/rylancole/deno-vue-example
 cd deno-vue-example
 ```
 
