@@ -11,12 +11,14 @@ cd deno-vue-example
 
 [Install Deno](https://deno.land/). This can be done with any of the following commands (depending on OS):
 
-`curl -fsSL https://deno.land/x/install/install.sh | sh`  
-`iwr https://deno.land/x/install/install.ps1 -useb | iex`  
-`brew install deno`  
-`choco install deno`  
-`scoop install deno`  
-`cargo install deno`
+```
+curl -fsSL https://deno.land/x/install/install.sh | sh  
+iwr https://deno.land/x/install/install.ps1 -useb | iex  
+brew install deno  
+choco install deno  
+scoop install deno  
+cargo install deno
+```
 
 [Install Deno File_Server](https://deno.land/manual@v1.4.6/examples/file_server) using Deno.
 
